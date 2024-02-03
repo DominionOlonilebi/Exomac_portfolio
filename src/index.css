@@ -1,13 +1,172 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* *{
+    overflow-x: hidden;
+}
+*::-webkit-scrollbar {
+    display: none;
+  } */
+.navbars{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navbars .navbars_brand {
+    font-size: 22px;
+    font-weight: 700;
+}
+.navbars .navs_button{
+    background-color: rgb(255, 182, 87);
+    border-color: rgb(255, 182, 87);
+    color: rgb(70, 70, 70);
+}
+.navbars .navs_button:hover {
+    background-color: rgb(48, 47, 47);
+    border-color: rgb(48, 47, 47);
+    color: #fff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ .home_container {
+    color: rgb(255, 182, 87);
+    padding-top: 160px;
+    padding-bottom: 120px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.9)),url(men6.jpg);
+    background-size: cover;
+    margin-bottom: 90px;
+}
+.home_container .home_buttons{
+    background-color: transparent;
+    border-color: white;
+}
+.home_container .home_buttons:hover{
+    background-color: transparent;
+    border-color: white;
+}
+.home_container .home_button{
+    background-color: rgb(255, 182, 87);
+    border-color: rgb(255, 182, 87);
+    color: rgb(48, 47, 47);
+}
+.home_container .home_button:hover{
+    background-color: rgb(255, 182, 87);
+    border-color: rgb(255, 182, 87);
+    color: rgb(48, 47, 47);
+}
+.home_container .img-fluid {
+    opacity: 0.2;
+}
+
+.home_container p {
+    color: silver;
+}
+
+
+/* about page */
+.about_container {
+    margin-bottom: 5%;
+}
+.about_container .about_div{
+    margin-top: 20px;
+}
+.about_container .about_div h6{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.about_container h4{
+    font-weight: 700;
+    text-align: center;
+}
+.about_container .about_btn {
+    background-color: rgb(255, 153, 21);
+    border-color: rgb(255, 153, 21);
+    color: rgb(48, 47, 47);
+}
+.about_container .about_btn:hover {
+    background-color: rgb(48, 47, 47);
+    border-color: rgb(48, 47, 47);
+    color: #fff;
+}
+
+.about_container p {
+    font-size: 15px;
+    line-height: 28px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.about_p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(81, 81, 82);
+}
+
+/* service page */
+.cards_container {
+    background-color: rgb(243, 243, 243);
+    padding-top: 5%;
+    padding-bottom: 3%;
+    margin-bottom: 80px;
+}
+
+.cards_container .card-fluid {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.cards_container .card {
+    border: transparent;
+    text-align: center;
+}
+.cards_container .service_btn{
+    background-color: rgb(255, 153, 21);
+    border-color: rgb(255, 153, 21);
+    color: rgb(48, 47, 47);
+}
+.cards_container .service_btn:hover{
+    background-color: rgb(48, 47, 47);
+    border-color: rgb(48, 47, 47);
+    color: #fff;
+}
+.cards_container h4{
+    text-align: center;
+}
+.progressbar {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.progressbar .bar {
+    background-color: rgb(255, 153, 21);
+    height: 8px;
+}
+
+.progressbar .bars {
+    font-size: 16px;
+    font-weight: 700;
+}
+.service_bar{
+    margin-bottom: 7%;
+}
+.service_bar h6{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* contact */
+.contacts{
+    text-align: center;
+    margin-bottom: 25%;
+}
+.contacts h4{
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+/* footer */
+.footers {
+    padding-top: 4%;
+    padding-bottom: 4%;
+    background-color: rgb(32, 32, 32);
+    text-align: center;
+    color: silver;
 }
