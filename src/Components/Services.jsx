@@ -128,7 +128,7 @@ const Cards = () => {
       <Container className="service_bar">
         <Row>
           <Col md={7}>
-            <img src="Images/men9.jpg" alt="" className="img-fluid" />
+            <img src="Images/men9.jpg" alt="" className="img-fluid mb-4" />
           </Col>
           <Col md={5}>
             <h6>Your success is our success</h6>
